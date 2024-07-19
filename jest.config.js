@@ -4,4 +4,5 @@ export default {
   transform: {
     "^.+\\.[t|j]sx?$": "babel-jest",
   },
+  setupFiles: ["<rootDir>/src/setupTests.js"],
 };
